@@ -1,14 +1,27 @@
 
 'use strict';
 
-function getElementWidth(content, padding, border) {
+const profile = {
+    username: "Jacob",
+  playTime: 300,
+};
 
-    const x = Number.parseFloat(content);
-    const y = Number.parseFloat(padding);
-    const z = Number.parseFloat(border);
-    return (x + y * 2 + z * 2);
+function 
+changeUsername(newName){
+    for (const names of object) {
+        
+    }
 }
 
-console.log(getElementWidth("50px", "8px", "4px"));
-console.log(getElementWidth("60px", "12px", "8.5px"));
-console.log(getElementWidth ("200px", "0px", "0px"));
+
+
+
+
+
+
+
+console.log(profile.getInfo()); 
+profile.changeUsername("Marco");
+console.log(profile.getInfo()); 
+profile.updatePlayTime(20);
+console.log(profile.getInfo()); 
